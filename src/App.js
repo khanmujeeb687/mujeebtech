@@ -16,6 +16,18 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAJ0VWnkruOs9CqTQcwBQrAKPWhHInak3Y",
+  authDomain: "mujeebtech-a81c6.firebaseapp.com",
+  projectId: "mujeebtech-a81c6",
+  storageBucket: "mujeebtech-a81c6.appspot.com",
+  messagingSenderId: "644311575628",
+  appId: "1:644311575628:web:6f7b51d2639639141658e9",
+  measurementId: "G-91HV4QKL2J"
+};
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -23,7 +35,11 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
-    }, 1200);
+    }, 500);
+    
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
 
     return () => clearTimeout(timer);
   }, []);
