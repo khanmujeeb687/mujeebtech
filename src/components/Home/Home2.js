@@ -19,38 +19,26 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I love to write <b className="purple">Code</b>, create <b className="purple">Softwares</b> and explore new technologies. ❤️
               <br />
-              <br />I am fluent in classics like
+              <br />I am comfortable with most of the high level languages and my proficiency is in 
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Java, Javascript and Dart. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I spent my day working on software development like &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">Mobile apps using flutter , react native or Java </b> and
+                I also work on Web development technologies like {" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  ReactJS , Angular or backend using nodeJS or Django.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
+              I keep exploring new development tools and technologies and play <b className="purple">Football</b> whenever I find t
+              </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -67,7 +55,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/khanmujeeb687"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
